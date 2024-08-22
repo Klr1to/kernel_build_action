@@ -25,7 +25,7 @@ jobs:
     - name: Build Kernel
       uses: ./
       with:
-          kernel-url: https://github.com/acuicultor/RadioactiveKernel_Pantah
+          kernel-url: https://github.com/Klr1to/RadioactiveKernel_Pantah
           kernel-branch: A14-stable
           config: radioactive_defconfig
           arch: arm64
