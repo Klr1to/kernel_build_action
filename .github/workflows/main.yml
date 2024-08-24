@@ -29,11 +29,9 @@ jobs:
           kernel-branch: A14-stable
           config: radioactive_defconfig
           arch: arm64
-          aosp-gcc: true
           aosp-clang: true
           ksu: true
           ksu-version: main
           aosp-clang-version: r450784e
-          disable-lto: true
           anykernel3: true
 
