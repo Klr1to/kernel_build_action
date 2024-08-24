@@ -34,4 +34,4 @@ jobs:
           ksu-version: main
           aosp-clang-version: r450784e
           anykernel3: true
-
+          extra-cmd: LDFLAGS="-fstack-protector"
